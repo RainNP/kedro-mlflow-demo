@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1689669581567
+current_stage: None
+description: ''
+last_updated_timestamp: 1689669581567
+name: test_model
+run_id: 559e16313864449bbf016ce8cab7d27c
+run_link: ''
+source: file:///C:/Users/HP/OneDrive/%E0%B9%80%E0%B8%94%E0%B8%AA%E0%B8%81%E0%B9%8C%E0%B8%97%E0%B9%87%E0%B8%AD%E0%B8%9B/intern/test/test-kedro-mlflow/mlruns/826895035297567049/559e16313864449bbf016ce8cab7d27c/artifacts/model
+status: READY
+status_message: null
+user_id: null
+version: 2

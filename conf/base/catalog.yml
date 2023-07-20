@@ -1,0 +1,34 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+
+raw_data:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/raw_data.csv
+  layer: raw
+
+model_input_table:
+  type: pandas.ParquetDataSet
+  filepath: data/03_primary/model_input_table.pq
+  layer: primary
+
+# clf:
+#   type: kedro_mlflow.io.artifacts.MlflowArtifactDataSet
+#   data_set:
+#     type: kedro_mlflow.io.models.MlflowModelSaverDataSet
+#     flavor: mlflow.sklearn
+#     filepath: data/06_models/clf.pickle
+
+clf:
+  type: kedro_mlflow.io.models.MlflowModelLoggerDataSet
+  flavor: mlflow.sklearn
+
+model_metrics:
+  type: kedro_mlflow.io.metrics.MlflowMetricsDataSet
+  prefix: metrics
+
+something:
+  type : pandas.ParquetDataSet
+  filepath: data/07_model_output/model_output_table.pq
+  layer: model_output

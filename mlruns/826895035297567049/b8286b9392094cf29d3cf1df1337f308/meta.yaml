@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/HP/OneDrive/%E0%B9%80%E0%B8%94%E0%B8%AA%E0%B8%81%E0%B9%8C%E0%B8%97%E0%B9%87%E0%B8%AD%E0%B8%9B/intern/test/test-kedro-mlflow/mlruns/826895035297567049/b8286b9392094cf29d3cf1df1337f308/artifacts
+deleted_time: 1689669968417
+end_time: 1689668597398
+entry_point_name: ''
+experiment_id: '826895035297567049'
+lifecycle_stage: deleted
+run_id: b8286b9392094cf29d3cf1df1337f308
+run_name: __default__
+run_uuid: b8286b9392094cf29d3cf1df1337f308
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689668584024
+status: 3
+tags: []
+user_id: HP

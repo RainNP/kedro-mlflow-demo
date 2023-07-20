@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/HP/OneDrive/%E0%B9%80%E0%B8%94%E0%B8%AA%E0%B8%81%E0%B9%8C%E0%B8%97%E0%B9%87%E0%B8%AD%E0%B8%9B/intern/test/test-kedro-mlflow/mlruns/100581002991888534/6acc6b7443f2479b8ae1e57c56147d21/artifacts
+deleted_time: 1689662574132
+end_time: null
+entry_point_name: ''
+experiment_id: '100581002991888534'
+lifecycle_stage: deleted
+run_id: 6acc6b7443f2479b8ae1e57c56147d21
+run_name: sedate-trout-908
+run_uuid: 6acc6b7443f2479b8ae1e57c56147d21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689655025963
+status: 1
+tags: []
+user_id: HP
